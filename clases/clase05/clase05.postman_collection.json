@@ -1,0 +1,197 @@
+{
+	"id": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+	"name": "clase05",
+	"description": "",
+	"order": [
+		"08882ba4-f424-c7a0-27af-8245b61757cd",
+		"6f3a72f3-f5af-1b36-ab04-39029095492e",
+		"56331478-a4b1-502a-dedf-c7d5617e99bc",
+		"b0c65008-3543-a4c7-4ff6-e1e628a11bf1",
+		"30e7b7ef-2c28-8c72-56de-f7704c4192a3"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1568762537268,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "08882ba4-f424-c7a0-27af-8245b61757cd",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:80/clase05/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+			"data": null,
+			"dataMode": "params",
+			"name": "index",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568762538661,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "30e7b7ef-2c28-8c72-56de-f7704c4192a3",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/clase05/alumnos/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+			"data": null,
+			"dataMode": "params",
+			"name": "alumnos get con parametro",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568766995488,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "56331478-a4b1-502a-dedf-c7d5617e99bc",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:80/clase05/alumnos/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+			"data": null,
+			"dataMode": "params",
+			"name": "alumnos get",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568762561971,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6f3a72f3-f5af-1b36-ab04-39029095492e",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/clase05/alumnos/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "sebas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellido",
+					"value": "andrada",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "edad",
+					"value": "25",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "usuariosandrada123456.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568767210729,
+			"name": "alumnos post",
+			"description": "",
+			"collectionId": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+			"responses": []
+		},
+		{
+			"id": "b0c65008-3543-a4c7-4ff6-e1e628a11bf1",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:80/clase05/alumnos/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "eb16af58-f770-d76c-a55f-75dfeaaa37e1",
+			"data": [
+				{
+					"key": "id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombre",
+					"value": "nico",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellido",
+					"value": "nava",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "edad",
+					"value": "39",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "alumnos put",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568762574434,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

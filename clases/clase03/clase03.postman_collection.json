@@ -1,0 +1,167 @@
+{
+	"variables": [],
+	"info": {
+		"name": "clase03",
+		"_postman_id": "344e51c5-58f7-2f54-56b8-2f5a579bae6a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "index.php",
+			"request": {
+				"url": "localhost:80/clase03/index.php",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "guardar",
+			"request": {
+				"url": {
+					"raw": "localhost:80/clase03/guardar.php?nombre=sebas&apellido=pppp",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"clase03",
+						"guardar.php"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "sebas",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "apellido",
+							"value": "pppp",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "leer",
+			"request": {
+				"url": "localhost:80/clase03/leer.php",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "borrar",
+			"request": {
+				"url": "localhost:80/clase03/index.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "modificar",
+			"request": {
+				"url": "localhost/80/clase03/index.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "juan",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "perez",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "listado",
+			"request": {
+				"url": "localhost/80/clase03/index.php",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "agregar",
+			"request": {
+				"url": "localhost/80/clase03/index.php",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "mari",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "lop",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
