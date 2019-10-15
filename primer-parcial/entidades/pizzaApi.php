@@ -1,12 +1,15 @@
 <?php
   require_once './entidades/pizza.php';
   require_once './entidades/archivos.php';
+  require_once './entidades/log.php';
 
   class PizzaApi {
     public function __construct() {}
 
     public function cargarPizza($request, $response)
     {
+      $metodo = $request->getMethod();
+      Log::guardarLog($metodo, $request->getUri()->getPath());
       $ruta = './Pizza.txt';
       $args = $request->getParsedBody();
       if(isset($args['precio'], $args['tipo'], $args['cantidad'], $args['sabor'] )) {
@@ -38,6 +41,8 @@
     }
 
     public function obtenerPizza($request, $response) {
+      $metodo = $request->getMethod();
+      Log::guardarLog($metodo, $request->getUri()->getPath());
       $args = $request->getQueryParams();
       if(isset($args['sabor'], $args['tipo'] )) {
         $tipo = $args['tipo']; $sabor = $args['sabor'];

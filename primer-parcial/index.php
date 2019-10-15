@@ -17,5 +17,9 @@
     $this->get('[/]', \PizzaApi::class . ':obtenerPizza');
   });
 
+  $app->group('/ventas', function() {
+    $this->post('[/]', VentasApi::class, ':cargarVenta');
+  });
+
   $app->run()
 ?>
