@@ -2,7 +2,7 @@
   class alumnoApi implements IApiUsable {
     public function TraerUno($request, $response, $args) {
       $id = $args['id'];
-      $alumno = new stdClass();
+      $alumno = Alumno::TraerUno;
       $newResponse = $response->withJson($alumno, 200);
 
       return $newResponse;
