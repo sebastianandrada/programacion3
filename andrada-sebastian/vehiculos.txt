@@ -1,0 +1,5 @@
+{"patente":"uvu302","marca":"bmw","kilometros":"105000"}
+{"patente":"aaa123","marca":"mercedes","kilometros":"5000"}
+{"patente":"bbb111","marca":"bmw","kilometros":"5000"}
+{"patente":"ccc222","marca":"bmw","kilometros":"5000"}
+{"patente":"asd111","marca":"toyota","kilometros":"5000"}
