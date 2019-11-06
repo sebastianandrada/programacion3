@@ -1,0 +1,14 @@
+usuarios:
+  * email
+  * clave
+  * tipo
+  * rol
+  * created_at
+  * updated_at
+
+  crear usuario 
+  login
+  metodo crypt de php
+  comparo utlilizando hash_equals
+
+  
